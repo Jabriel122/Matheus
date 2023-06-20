@@ -23,10 +23,17 @@ namespace MAtheus
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine($"Você morreu!");
                 Console.ResetColor();
+
+                Console.ReadLine();
+                
             }
             else if (StateVc == satisfeito)
             {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine($"Você Sobreviveu, mas é isso mesmo o que você quer?");
+                Console.ResetColor();
+
+                Console.ReadLine();
             }
 
 

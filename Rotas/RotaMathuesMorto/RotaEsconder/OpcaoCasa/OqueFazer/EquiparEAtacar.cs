@@ -85,6 +85,7 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
 
 
                                             StateVc = morto;
+                                            StatusVida();
                                         }
 
                                         else if (atacar == "não" || atacar == "n" || atacar == "Não atacar")
@@ -176,6 +177,7 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
                                                 Console.WriteLine($"Satisfeito?");
 
                                                 StateVc = satisfeito;
+                                                StatusVida();
                                             }
                                             else if (esocolha2 == "não" || esocolha2 == "n" || esocolha2 == "Não Matar")
                                             {
@@ -388,6 +390,7 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
                                                     Console.ReadLine();
 
                                                     StateVc = morto;
+                                                    StatusVida();
 
 
                                                 }
@@ -421,7 +424,7 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
                                                     Console.WriteLine($"Um barulho alto sai da sua boca");
                                                     Console.ReadLine();
 
-                                                    Console.WriteLine($"Você sente a suas cordas bocais tremendo");
+                                                    Console.WriteLine($"Você sente a suas cordas vocais tremendo");
                                                     Console.ReadLine();
 
                                                     Console.WriteLine($"E quando você vê");
@@ -469,7 +472,7 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
                                                     Console.WriteLine($"A menina sua frente olha para você assustada");
                                                     Console.ReadLine();
 
-                                                    Console.WriteLine($"Ela parece está chorando, parecia que não tinha percibido");
+                                                    Console.WriteLine($"Ela parece está chorando, parecia que não tinha percebido");
                                                     Console.ReadLine();
 
                                                     Console.WriteLine($"Ela se assusta com suas lagrimas e sai correndo do quarto");
@@ -496,6 +499,7 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
                                                     Console.ResetColor();
 
                                                     StateVc = morto;
+                                                    StatusVida();
                                                 }
                                                 else
                                                 {
@@ -534,6 +538,8 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
                                                     Console.ResetColor();
 
                                                     StateVc = morto;
+                                                    StatusVida();
+                                                    
                                                 }
                                             }
                                             else
@@ -556,6 +562,7 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
                                                 Console.ReadLine();
 
                                                 StateVc = morto;
+                                                StatusVida();
                                             }
 
 
@@ -582,6 +589,7 @@ namespace MAtheus.Rotas.RotaMathuesMorto.RotaEsconder.OpcaoCasa.OqueFazer
                                             Console.ReadLine();
 
                                             StateVc = morto;
+                                            StatusVida();
 
                                         }
 
